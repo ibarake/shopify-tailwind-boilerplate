@@ -1,0 +1,8 @@
+{
+    "sections": {
+        "main-slider": {
+            "type": "main-slider"
+        }
+    },
+    "order": ["main-slider"]
+}

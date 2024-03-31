@@ -1,0 +1,16 @@
+<h1>{{ section.settings.title }}</h1>
+{% schema %}
+    {
+        "name": "header",
+        "class": "header-section",
+        "tag": "header",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Header"
+            }
+        ]
+    }
+{% endschema %}

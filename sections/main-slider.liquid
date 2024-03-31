@@ -1,0 +1,30 @@
+<h2 class="text-2xl text-red-500">{{ section.settings.title }}</h2>
+<p>{{ section.settings.description }}</p>
+
+{% schema %}
+    {
+        "name": "Main slider",
+        "class": "main-slider",
+        "tag": "section",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Main slider"
+            },
+            {
+                "type": "text",
+                "id": "description",
+                "label": "Description",
+                "default": "This is a main slider"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Main slider",
+                "category": "Slider"
+            }
+        ]
+    }
+{% endschema %}

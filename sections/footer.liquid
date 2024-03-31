@@ -1,0 +1,17 @@
+<footer>{{ section.settings.footer_text }}</footer>
+
+{% schema %}
+    {
+        "name": "Footer",
+        "class": "footer-section",
+        "tag": "footer",
+        "settings": [
+            {
+                "type": "text",
+                "id": "footer_text",
+                "label": "Footer Text",
+                "default": "Footer"
+            }
+        ]
+    }
+{% endschema %}
